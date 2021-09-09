@@ -1,0 +1,14 @@
+$imgBorder: 8px;
+$imgW: 150px;
+$imgH: $imgW;
+$borderR: 20px;
+$bgColor: #c3cfe2;
+
+@mixin s-media ($url-text){
+  padding: 20px;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  content: $url-text;
+}
